@@ -5,6 +5,6 @@ class ExampleTest extends TestCase
 {
     public function testAddingTwoPusTwoResultsInFour()
     {
-        $this->assertEquals(5, 2 + 2);
+        $this->assertEquals(4, 2 + 2);
     }
 }
