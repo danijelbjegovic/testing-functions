@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f61d802-563e-42ef-beb4-93ae0e448f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/OrderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/OrderTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="216">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#6#37#0#PHP" expanded="true" />
               </folding>
@@ -57,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/OrderTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="595">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -140,9 +132,9 @@
         <option value="$PROJECT_DIR$/src/User.php" />
         <option value="$PROJECT_DIR$/src/Mailer.php" />
         <option value="$PROJECT_DIR$/tests/UserTest.php" />
-        <option value="$PROJECT_DIR$/tests/OrderTest.php" />
         <option value="$PROJECT_DIR$/src/Order.php" />
         <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
+        <option value="$PROJECT_DIR$/tests/OrderTest.php" />
       </list>
     </option>
   </component>
@@ -252,17 +244,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.OrderTest.testOrderIsProcessed">
-    <configuration name="MockTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="MockTest" file="$PROJECT_DIR$/src/MockTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.OrderTest.testOrderIsProcessedUsingMockery">
     <configuration name="MockTest.testMock" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="MockTest" file="$PROJECT_DIR$/src/MockTest.php" method="testMock" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="OrderTest.testOrderIsProcessed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="OrderTest" file="$PROJECT_DIR$/tests/OrderTest.php" method="testOrderIsProcessed" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderTest.testOrderIsProcessedUsingMockery" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="OrderTest" file="$PROJECT_DIR$/tests/OrderTest.php" method="testOrderIsProcessedUsingMockery" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserTest.testCannotNotifyUserWithNoEmail" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -275,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.OrderTest.testOrderIsProcessedUsingMockery" />
         <item itemvalue="PHPUnit.OrderTest.testOrderIsProcessed" />
         <item itemvalue="PHPUnit.UserTest.testCannotNotifyUserWithNoEmail" />
         <item itemvalue="PHPUnit.UserTest.testNotificationIsSent" />
         <item itemvalue="PHPUnit.MockTest.testMock" />
-        <item itemvalue="PHPUnit.MockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -298,14 +290,11 @@
       <workItem from="1565341055240" duration="7877000" />
       <workItem from="1565591033027" duration="1037000" />
       <workItem from="1566313425732" duration="1461000" />
-      <workItem from="1566371383442" duration="2411000" />
+      <workItem from="1566371383442" duration="3660000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 17m 57s.xml">
-      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="UserTest_testCannotNotifyUserWithNoEmail - 2019.08.21 at 09h 15m 21s.xml">
       <configuration name="UserTest.testCannotNotifyUserWithNoEmail" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -333,9 +322,12 @@
     <history-entry file="OrderTest_testOrderIsProcessed - 2019.08.21 at 10h 02m 33s.xml">
       <configuration name="OrderTest.testOrderIsProcessed" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="OrderTest_testOrderIsProcessedUsingMockery - 2019.08.21 at 10h 40m 13s.xml">
+      <configuration name="OrderTest.testOrderIsProcessedUsingMockery" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19498000" />
+    <option name="totallyTimeSpent" value="20747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,9 +340,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3200" y="-568" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +354,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24547283" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24547283" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,20 +444,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/OrderTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="216">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#6#37#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/OrderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
