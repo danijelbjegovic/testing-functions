@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f61d802-563e-42ef-beb4-93ae0e448f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/OrderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tests.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#6#37#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,17 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/OrderTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/Mailer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -93,19 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -120,7 +130,6 @@
       <list>
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/User.php" />
-        <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/tests/FunctionTest.php" />
@@ -131,8 +140,9 @@
         <option value="$PROJECT_DIR$/src/User.php" />
         <option value="$PROJECT_DIR$/src/Mailer.php" />
         <option value="$PROJECT_DIR$/tests/UserTest.php" />
-        <option value="$PROJECT_DIR$/src/Order.php" />
         <option value="$PROJECT_DIR$/tests/OrderTest.php" />
+        <option value="$PROJECT_DIR$/src/Order.php" />
+        <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
       </list>
     </option>
   </component>
@@ -168,6 +178,8 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -207,31 +219,6 @@
             <path>
               <item name="tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,23 +298,11 @@
       <workItem from="1565341055240" duration="7877000" />
       <workItem from="1565591033027" duration="1037000" />
       <workItem from="1566313425732" duration="1461000" />
-      <workItem from="1566371383442" duration="1453000" />
+      <workItem from="1566371383442" duration="2411000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 04m 39s.xml">
-      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 05m 56s.xml">
-      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 11m 37s.xml">
-      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 12m 12s.xml">
-      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 17m 57s.xml">
       <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -346,9 +321,21 @@
     <history-entry file="UserTest_testCannotNotifyUserWithNoEmail - 2019.08.21 at 09h 19m 53s.xml">
       <configuration name="UserTest.testCannotNotifyUserWithNoEmail" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="OrderTest_testOrderIsProcessed - 2019.08.21 at 10h 01m 30s.xml">
+      <configuration name="OrderTest.testOrderIsProcessed" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="OrderTest_testOrderIsProcessed - 2019.08.21 at 10h 01m 55s.xml">
+      <configuration name="OrderTest.testOrderIsProcessed" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="OrderTest_testOrderIsProcessed - 2019.08.21 at 10h 02m 08s.xml">
+      <configuration name="OrderTest.testOrderIsProcessed" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="OrderTest_testOrderIsProcessed - 2019.08.21 at 10h 02m 33s.xml">
+      <configuration name="OrderTest.testOrderIsProcessed" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18540000" />
+    <option name="totallyTimeSpent" value="19498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,13 +383,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/FunctionTest.php" />
-    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QueueException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -420,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -434,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/src/Mailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -459,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/QueueTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -473,10 +446,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/OrderTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
