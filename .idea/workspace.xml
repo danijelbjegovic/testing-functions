@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f61d802-563e-42ef-beb4-93ae0e448f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UserTest.php" afterDir="false" />
     </list>
@@ -20,6 +19,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="481">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="552">
+              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -159,7 +167,7 @@
       <path value="" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="3200" />
     <option name="y" value="-568" />
     <option name="width" value="1920" />
@@ -269,17 +277,11 @@
       <workItem from="1565267156535" duration="3257000" />
       <workItem from="1565341055240" duration="7877000" />
       <workItem from="1565591033027" duration="1037000" />
-      <workItem from="1566313425732" duration="501000" />
+      <workItem from="1566313425732" duration="1461000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest - 2019.08.09 at 17h 12m 47s.xml">
-      <configuration name="QueueTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="MockTest - 2019.08.09 at 17h 20m 49s.xml">
-      <configuration name="MockTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="MockTest - 2019.08.09 at 17h 22m 29s.xml">
       <configuration name="MockTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -304,9 +306,15 @@
     <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 11m 37s.xml">
       <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 12m 12s.xml">
+      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testNotificationIsSent - 2019.08.20 at 17h 17m 57s.xml">
+      <configuration name="UserTest.testNotificationIsSent" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16127000" />
+    <option name="totallyTimeSpent" value="17087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,7 +326,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3200" y="-568" width="1920" height="1080" extended-state="6" />
+    <frame x="3200" y="-545" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
@@ -326,7 +334,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33539096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33539096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -403,10 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.php">
+    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -417,10 +418,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="552">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
         </state>
       </provider>
     </entry>
